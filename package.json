@@ -9,7 +9,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "start": "nodemon"
+    "start": "node media"
   },
   "keywords": [
     "telegram",
