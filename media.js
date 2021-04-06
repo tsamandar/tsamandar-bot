@@ -6,7 +6,7 @@ dotenv.config();
 
 const bot = new Telegraf(process.env.BOT_TOKEN)
 
-bot.command('start', (ctx) => ctx.reply('/start'))
+bot.command('start', (ctx) => ctx.reply('Hi'))
 
 // reading from media
 bot.command('logo_apple', (ctx) => ctx.replyWithPhoto({ source: 'media/apple.png' }))
