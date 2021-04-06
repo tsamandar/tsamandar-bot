@@ -1,0 +1,20 @@
+{
+  "name": "telegraf.js-bots",
+  "version": "1.0.0",
+  "description": "Telegram bot",
+  "main": "media.js",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "telegraf": "^4.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "nodemon"
+  },
+  "keywords": [
+    "telegram",
+    "bot"
+  ],
+  "author": "",
+  "license": "ISC"
+}
