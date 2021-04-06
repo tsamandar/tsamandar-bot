@@ -1,1 +1,1 @@
-web: node media
+worker: node media
