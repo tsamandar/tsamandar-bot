@@ -9,7 +9,7 @@ const bot = new Telegraf(process.env.BOT_TOKEN)
 bot.command('start', (ctx) => ctx.reply('Hi'))
 
 // reading from media
-bot.command('logo_apple', (ctx) => ctx.replyWithPhoto({ source: path.basename('media/telgram.png')}))
+bot.command('logo_apple', (ctx) => ctx.replyWithPhoto({ source: 'media/apple.png' }))
 bot.command('logo_microsoft', (ctx) => ctx.replyWithPhoto({ source: 'media/microsoft.png' }))
 bot.command('logo_google', (ctx) => ctx.replyWithPhoto({ source: 'media/google.png' }))
 bot.command('logo_facebook', (ctx) => ctx.replyWithPhoto({ source: 'media/facebook.png' }))
@@ -34,9 +34,7 @@ bot.command('meme', (ctx) => ctx.replyWithPhoto(
         caption: 'No <br>Comment</>',
         parse_mode: 'HTML'
     }
-));
-
-bot.catch(err => console.log(err));
+))
 
 bot.launch();
 
