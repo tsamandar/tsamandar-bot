@@ -1,1 +1,1 @@
-worker: node media
+worker: nodemon
