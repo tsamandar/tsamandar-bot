@@ -9,7 +9,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "start": "node media"
+    "start": "node app"
   },
   "keywords": [
     "telegram",
